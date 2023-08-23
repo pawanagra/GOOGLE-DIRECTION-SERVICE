@@ -1,0 +1,29 @@
+[31m[error] 8/10/2023, 1:18:14 AM[39m User ID:  :: router : routeDirection , fetchDirectionFromApi is not a function
+[31m[error] 8/10/2023, 1:22:47 AM[39m User ID:  :: router : routeDirection , fetchDirectionFromApi is not a function
+[31m[error] 8/10/2023, 5:18:08 AM[39m User ID:  :: router : routeDirection , fetchDirectionFromApi is not a function
+[31m[error] 8/10/2023, 5:52:15 AM[39m User ID:  :: router : routeDirection , updatestopDetails is not a function
+[31m[error] 8/10/2023, 5:54:03 AM[39m User ID:  :: router : routeDirection , CalculateTraveTimeAndTravelDistance is not a function
+[31m[error] 8/10/2023, 5:54:58 AM[39m User ID:  :: router : routeDirection , updatestopDetails is not a function
+[31m[error] 8/10/2023, 8:55:01 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/10/2023, 8:57:17 AM[39m User ID:  :: router : routeDirection , updatestopDetailsByETD is not defined
+[31m[error] 8/10/2023, 8:57:19 AM[39m User ID:  :: router : routeDirection , updatestopDetailsByETD is not defined
+[31m[error] 8/10/2023, 9:08:22 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/10/2023, 9:11:00 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/10/2023, 9:15:22 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/10/2023, 9:15:47 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/10/2023, 9:16:32 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/10/2023, 9:17:04 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/10/2023, 9:18:16 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/10/2023, 9:28:22 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/10/2023, 9:29:00 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/10/2023, 9:30:00 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/10/2023, 9:34:39 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/10/2023, 9:39:55 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/10/2023, 9:43:49 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/10/2023, 9:45:55 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/10/2023, 9:48:13 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/10/2023, 9:59:01 AM[39m User ID:  :: router : routeDirection , baseTime.split is not a function
+[31m[error] 8/10/2023, 9:59:40 AM[39m User ID:  :: router : routeDirection , baseTime.split is not a function
+[31m[error] 8/10/2023, 10:00:44 AM[39m User ID:  :: router : routeDirection , baseTime.split is not a function
+[31m[error] 8/10/2023, 10:02:31 AM[39m User ID:  :: router : routeDirection , baseTime.split is not a function
+[31m[error] 8/10/2023, 10:02:53 AM[39m User ID:  :: router : routeDirection , baseTime.split is not a function

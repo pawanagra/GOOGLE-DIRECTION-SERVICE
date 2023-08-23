@@ -1,0 +1,59 @@
+[31m[error] 8/1/2023, 5:15:05 AM[39m User ID:  :: Error fetching data from the API: : Cannot read properties of undefined (reading 'data') , undefined
+[31m[error] 8/1/2023, 5:21:03 AM[39m User ID:  :: Error fetching data from the API: : Cannot read properties of undefined (reading 'data') , undefined
+[31m[error] 8/1/2023, 5:23:16 AM[39m User ID:  :: Error fetching data from the API: : Cannot read properties of undefined (reading 'data') , undefined
+[31m[error] 8/1/2023, 7:12:37 AM[39m User ID:  :: Error fetching data from the API: : Cannot read properties of undefined (reading 'data') , undefined
+[31m[error] 8/1/2023, 7:21:48 AM[39m User ID:  :: Error fetching data from the API: : Cannot read properties of undefined (reading 'data') , undefined
+[31m[error] 8/1/2023, 7:22:43 AM[39m User ID:  :: Error fetching data from the API: : Cannot read properties of undefined (reading 'data') , undefined
+[31m[error] 8/1/2023, 7:23:55 AM[39m User ID:  :: Error fetching data from the API: : Cannot read properties of undefined (reading 'data') , undefined
+[31m[error] 8/1/2023, 7:41:27 AM[39m User ID:  :: Error fetching data from the API: : Cannot read properties of undefined (reading 'data') , undefined
+[31m[error] 8/1/2023, 7:46:02 AM[39m User ID:  :: Error fetching data from the API: : Cannot read properties of undefined (reading 'data') , undefined
+[31m[error] 8/1/2023, 7:47:10 AM[39m User ID:  :: Error fetching data from the API: : Cannot read properties of undefined (reading 'data') , undefined
+[31m[error] 8/1/2023, 7:48:43 AM[39m User ID:  :: router : routeDirectiohn , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/1/2023, 7:49:31 AM[39m User ID:  :: router : routeDirectiohn , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/1/2023, 7:50:20 AM[39m User ID:  :: router : routeDirectiohn , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/1/2023, 7:51:28 AM[39m User ID:  :: router : routeDirectiohn , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/1/2023, 7:53:16 AM[39m User ID:  :: router : routeDirectiohn , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/1/2023, 7:55:58 AM[39m User ID:  :: router : routeDirectiohn , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/1/2023, 7:59:52 AM[39m User ID:  :: router : routeDirectiohn , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/1/2023, 8:06:09 AM[39m User ID:  :: router : routeDirectiohn , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/1/2023, 8:06:57 AM[39m User ID:  :: router : routeDirectiohn , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/1/2023, 8:09:17 AM[39m User ID:  :: router : routeDirectiohn , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/1/2023, 8:14:49 AM[39m User ID:  :: router : routeDirectiohn , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/1/2023, 8:15:49 AM[39m User ID:  :: router : routeDirectiohn , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/1/2023, 8:20:59 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/1/2023, 8:35:39 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/1/2023, 8:59:50 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:01:58 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:03:40 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:03:44 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:05:09 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:05:37 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:07:09 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/1/2023, 9:07:12 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/1/2023, 9:09:07 AM[39m User ID:  :: router : routeDirection , optimizee is not defined
+[31m[error] 8/1/2023, 9:09:52 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:12:21 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:13:36 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:13:54 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:14:39 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:15:27 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:16:31 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:17:22 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:19:33 AM[39m User ID:  :: router : routeDirection , origin is not defined
+[31m[error] 8/1/2023, 9:19:35 AM[39m User ID:  :: router : routeDirection , origin is not defined
+[31m[error] 8/1/2023, 9:22:44 AM[39m User ID:  :: router : routeDirection , origin is not defined
+[31m[error] 8/1/2023, 9:22:45 AM[39m User ID:  :: router : routeDirection , origin is not defined
+[31m[error] 8/1/2023, 9:30:06 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:36:12 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:37:48 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:43:06 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:45:20 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:45:33 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:46:11 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:47:32 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:49:22 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:56:16 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:56:48 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 9:59:32 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 10:01:31 AM[39m User ID:  :: router : routeDirection , undefined
+[31m[error] 8/1/2023, 10:02:15 AM[39m User ID:  :: router : routeDirection , undefined

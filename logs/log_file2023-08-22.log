@@ -1,0 +1,4 @@
+[31m[error] 8/22/2023, 3:57:03 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'planned_routes')
+[31m[error] 8/22/2023, 8:18:12 AM[39m User ID:  :: router : routeDirection , i is not defined
+[31m[error] 8/22/2023, 8:20:02 AM[39m User ID:  :: router : routeDirection , addPlannedQuantity is not defined
+[31m[error] 8/22/2023, 9:01:41 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'length')

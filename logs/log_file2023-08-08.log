@@ -1,0 +1,16 @@
+[31m[error] 8/8/2023, 5:16:01 AM[39m User ID:  :: router : routeDirection , origin is not defined
+[31m[error] 8/8/2023, 7:17:31 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'lenght')
+[31m[error] 8/8/2023, 7:21:57 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'lenght')
+[31m[error] 8/8/2023, 7:24:21 AM[39m User ID:  :: router : routeDirection , travelTime is not defined
+[31m[error] 8/8/2023, 7:24:44 AM[39m User ID:  :: router : routeDirection , travelTime is not defined
+[31m[error] 8/8/2023, 7:25:01 AM[39m User ID:  :: router : routeDirection , travelTime is not defined
+[31m[error] 8/8/2023, 7:26:53 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'lenght')
+[31m[error] 8/8/2023, 7:31:05 AM[39m User ID:  :: router : routeDirection , object is not defined
+[31m[error] 8/8/2023, 8:11:30 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading '0')
+[31m[error] 8/8/2023, 8:12:48 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading '0')
+[31m[error] 8/8/2023, 8:15:08 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading '0')
+[31m[error] 8/8/2023, 8:15:46 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading '0')
+[31m[error] 8/8/2023, 8:40:58 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/8/2023, 8:41:39 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/8/2023, 8:41:58 AM[39m User ID:  :: router : routeDirection , Assignment to constant variable.
+[31m[error] 8/8/2023, 10:30:16 AM[39m User ID:  :: router : routeDirection , planned_routes is not defined

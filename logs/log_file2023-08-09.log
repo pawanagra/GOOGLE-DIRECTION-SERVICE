@@ -1,0 +1,34 @@
+[31m[error] 8/9/2023, 9:22:48 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:24:06 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:24:13 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:24:22 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:29:49 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:30:03 AM[39m User ID:  :: router : routeDirection , origin is not defined
+[31m[error] 8/9/2023, 9:30:05 AM[39m User ID:  :: router : routeDirection , origin is not defined
+[31m[error] 8/9/2023, 9:30:20 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:31:54 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:32:40 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:33:01 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:33:54 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:35:35 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:35:59 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:36:24 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:37:08 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:38:12 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:39:09 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:43:35 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:45:37 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:48:52 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 9:52:50 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'forEach')
+[31m[error] 8/9/2023, 10:05:25 AM[39m User ID:  :: router : routeDirection , Cannot access 'origin' before initialization
+[31m[error] 8/9/2023, 10:05:27 AM[39m User ID:  :: router : routeDirection , Cannot access 'origin' before initialization
+[31m[error] 8/9/2023, 10:05:28 AM[39m User ID:  :: router : routeDirection , Cannot access 'origin' before initialization
+[31m[error] 8/9/2023, 10:14:36 AM[39m User ID:  :: router : routeDirection , Cannot access 'origin' before initialization
+[31m[error] 8/9/2023, 10:15:13 AM[39m User ID:  :: router : routeDirection , Cannot access 'origin' before initialization
+[31m[error] 8/9/2023, 10:19:39 AM[39m User ID:  :: router : routeDirection , fetchDirectionFromApi is not a function
+[31m[error] 8/9/2023, 10:19:40 AM[39m User ID:  :: router : routeDirection , fetchDirectionFromApi is not a function
+[31m[error] 8/9/2023, 10:21:32 AM[39m User ID:  :: router : routeDirection , fetchDirectionFromApi is not a function
+[31m[error] 8/9/2023, 10:22:29 AM[39m User ID:  :: router : routeDirection , fetchDirectionFromApi is not a function
+[31m[error] 8/9/2023, 10:22:43 AM[39m User ID:  :: router : routeDirection , fetchDirectionFromApi is not a function
+[31m[error] 8/9/2023, 10:28:28 AM[39m User ID:  :: router : routeDirection , fetchDirectionFromApi is not a function
+[31m[error] 8/9/2023, 10:28:32 AM[39m User ID:  :: router : routeDirection , fetchDirectionFromApi is not a function

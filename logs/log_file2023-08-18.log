@@ -1,0 +1,56 @@
+[31m[error] 8/18/2023, 1:18:01 AM[39m User ID:  :: router : routeDirection , Cannot define the same handler twice __default__
+[31m[error] 8/18/2023, 1:18:31 AM[39m User ID:  :: router : routeDirection , Cannot define the same handler twice __default__
+[31m[error] 8/18/2023, 1:46:43 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 1:48:50 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 1:50:19 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 1:51:17 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 1:52:36 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 1:53:03 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 1:53:33 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 5:05:15 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 5:06:37 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 5:08:05 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 5:09:28 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 5:09:37 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 5:10:42 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 5:11:02 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 5:34:45 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 5:43:15 AM[39m User ID:  :: router : routeDirection , responses is not defined
+[31m[error] 8/18/2023, 5:55:36 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 5:56:00 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 5:56:24 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'data')
+[31m[error] 8/18/2023, 6:03:18 AM[39m User ID:  :: router : routeDirection , callComputeRoutes is not defined
+[31m[error] 8/18/2023, 6:03:45 AM[39m User ID:  :: router : routeDirection , callComputeRoutes is not defined
+[31m[error] 8/18/2023, 6:04:35 AM[39m User ID:  :: router : routeDirection , callComputeRoutes is not defined
+[31m[error] 8/18/2023, 6:05:17 AM[39m User ID:  :: router : routeDirection , callComputeRoutes is not defined
+[31m[error] 8/18/2023, 6:05:54 AM[39m User ID:  :: router : routeDirection , callComputeRoutes is not defined
+[31m[error] 8/18/2023, 6:06:08 AM[39m User ID:  :: router : routeDirection , callComputeRoutes is not defined
+[31m[error] 8/18/2023, 6:19:53 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 6:21:05 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 6:21:40 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 6:31:01 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 6:31:24 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 6:32:04 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 6:32:18 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 6:33:08 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 6:34:39 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 6:40:08 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 6:40:43 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 6:45:27 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 7:35:12 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 7:36:54 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 7:38:01 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 7:42:59 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 7:43:45 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'latitude')
+[31m[error] 8/18/2023, 7:44:45 AM[39m User ID:  :: router : routeDirection , Cannot read properties of undefined (reading 'latitude')
+[31m[error] 8/18/2023, 7:45:17 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 7:45:40 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 7:45:57 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 7:46:13 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 7:48:16 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 8:04:16 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 8:04:36 AM[39m User ID:  :: router : routeDirection , The "listener" argument must be of type function. Received undefined
+[31m[error] 8/18/2023, 9:10:39 AM[39m User ID:  :: router : routeDirection , Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[31m[error] 8/18/2023, 10:55:45 AM[39m User ID:  :: router : routeDirection , Error fetching directions from Google Maps API: axios is not defined
+[31m[error] 8/18/2023, 10:55:47 AM[39m User ID:  :: router : routeDirection , Error fetching directions from Google Maps API: axios is not defined
+[31m[error] 8/18/2023, 10:56:06 AM[39m User ID:  :: router : routeDirection , Error fetching directions from Google Maps API: axios is not defined
