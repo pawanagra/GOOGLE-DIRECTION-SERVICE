@@ -10,25 +10,26 @@
  */
 
 //@PA - 31/07/23 - import necessary packages
+const { logger } = require('../../Logger/logger');
 const axios = require('axios');
 const retry = require('retry');
 require('dotenv').config();
 
-async function fetchGoogleDirectionsUsingUrlWithRetry(plannedRoute) {
+async function processRoutesForDirections(plannedRoute) {
   // Define the Google Routes API URL and other parameters
 
   const operation = retry.operation({
     retries: 3, // Number of retry attempts
     factor: 2, // Exponential backoff factor
-    minTimeout: 1000, // Minimum time between retries (in milliseconds)
-    maxTimeout: 60000, // Maximum time between retries (in milliseconds)
+    minTimeout: 5000, // Minimum time between retries is 5 secs(in milliseconds)
+    maxTimeout: 60000, // Maximum time between retries is 1 minute (in milliseconds)
   });
 
   return new Promise((resolve, reject) => {
     operation.attempt(async (currentAttempt) => {
       try {
         const result = await fetchGoogleDirectionsUsingUrl(plannedRoute);
-        resolve(result);
+        resolve(result); // Todo - put retry here (status !=200,401,402,403,404)
       } catch (error) {
         if (operation.retry(error)) {
           console.log(`Retrying attempt #${currentAttempt}`);
@@ -43,20 +44,20 @@ async function fetchGoogleDirectionsUsingUrlWithRetry(plannedRoute) {
 
 //@PA - 22/08/23 - Define an asynchronous function for fetching the directions from the Google Routes API
 async function fetchGoogleDirectionsUsingUrl(plannedRoute) {
-// Define the Google Routes API URL
-const apiUrl = 'https://routes.googleapis.com/directions/v2:computeRoutes';
+  // Define the Google Routes API URL
+  const apiUrl = 'https://routes.googleapis.com/directions/v2:computeRoutes';
 
-// Set up the query parameters for the API request
-const params = {
+  // Set up the query parameters for the API request
+  const params = {
   key: process.env.GOOGLE_MAPS_API_KEY,
   $fields: 'routes.legs.distanceMeters,routes.legs.duration,routes.legs.localizedValues',
-};
+  };
 
-// Extract origin, destination, and waypoints from the plannedRoute data
-const {origin, destination, waypoints} = getDirectionData(plannedRoute);
+  // Extract origin, destination, and waypoints from the plannedRoute data
+  const {origin, destination, waypoints} = getDirectionData(plannedRoute);
 
 // Prepare the request body for the API request
-const requestBody = {
+  const requestBody = {
   origin: {
     location: {
       latLng: {
@@ -77,17 +78,17 @@ const requestBody = {
   travelMode: "DRIVE",
   routingPreference: "TRAFFIC_AWARE",
   departureTime: "2023-10-15T15:01:23.045123456Z",
-};
+  };
 
   try {
     // Send a POST request to the Google Routes API using axios
     const response = await axios.post(apiUrl, requestBody, { params });
     // Handle the response data here
-    // console.log('Response:', response.data.routes[0]);
-    return response.data;
+    // console.log('Response:', response.data);
+    // return response.data;
+    return await handleResponse(response);
   } catch (error) {
-    // Handle errors here
-    console.error('Error:', error);
+    throw error;
   }
 }
 
@@ -97,7 +98,7 @@ const CalculateTraveTimeAndTravelDistance = (data) => {
   let travelTime = 0;
   let travelDistance = 0;
 
-  const legs = data.routes[0].legs;
+  const legs = data.data.routes[0].legs;
   // const legs = data.data.routes[0].legs;
   for(let i = 0; i < legs.length; i++) {
     travelTime += parseInt(legs[i].duration);
@@ -177,9 +178,9 @@ function updatestopDetailsByETD (ETA, stopDetailsAtIndex) {
 
 }
 
-// //@PA - 9/08/23 - Updating the stopDetails by adding ETA as well as totalDistance at each stop(stopSequence) level
-function updatestopDetailsByETAandTotalDistance (data, results, baseTime, baseDistance, index) {
-  const legs = results[index].routes[0].legs;
+// //@PA - 9/08/23 - Updating the stopDetails of planned_routes by adding ETA as well as totalDistance at each stop(stopSequence) level
+function updatestopDetailsByETAandTotalDistance_PlannedRoutes (data, results, baseTime, baseDistance, index) {
+  const legs = results[index].data.routes[0].legs;
   data.planned_routes[index].stopDetails[0].ETA = baseTime;
   data.planned_routes[index].stopDetails[0].totalDistance = baseDistance;
   data.planned_routes[index].stopDetails[0].ETD = updatestopDetailsByETD(data.planned_routes[index].stopDetails[0].ETA, data.planned_routes[index].stopDetails[0]);
@@ -204,6 +205,37 @@ function updatestopDetailsByETAandTotalDistance (data, results, baseTime, baseDi
 
     //Update the stopDetails by adding totalDistance field at each stop level
     data.planned_routes[index].stopDetails[i+1].totalDistance = parseInt(legs[i].distanceMeters)*(0.00062137119);
+    
+  }
+}
+
+// //@PA - 24/08/23 - Updating the stopDetails by adding ETA as well as totalDistance at each stop(stopSequence) level
+function updatestopDetailsByETAandTotalDistance_OtherPlannedRoutes (data, results, baseTime, baseDistance, index) {
+  const legs = results[index].data.routes[0].legs;
+  data.other_planned_routes[index].stopDetails[0].ETA = baseTime;
+  data.other_planned_routes[index].stopDetails[0].totalDistance = baseDistance;
+  data.other_planned_routes[index].stopDetails[0].ETD = updatestopDetailsByETD(data.other_planned_routes[index].stopDetails[0].ETA, data.other_planned_routes[index].stopDetails[0]);
+  //Adding the field 'ETA' and 'totalDistance' to stopDetails at each stop level
+  for(let i = 0; i< legs.length; i++) {
+     // Split the time into hours and minutes
+     const [hours, minutes] = baseTime.split(':').map(Number);
+    // Convert the time to total seconds
+    const timeInSeconds = hours * 3600 + minutes * 60;
+    // Calculate the final time in seconds
+    const finalTimeInSeconds = timeInSeconds + parseInt(legs[i].duration);
+    // Calculate hours and minutes for the final time
+    const finalHours = Math.floor(finalTimeInSeconds / 3600);
+    const finalMinutes = Math.floor((finalTimeInSeconds % 3600) / 60);
+    // Format the result in HH:MM format
+    const result = `${String(finalHours).padStart(2, '0')}:${String(finalMinutes).padStart(2, '0')}`;
+
+    data.other_planned_routes[index].stopDetails[i+1].ETA = result;
+    data.other_planned_routes[index].stopDetails[i+1].ETD =  updatestopDetailsByETD(data.other_planned_routes[index].stopDetails[i+1].ETA, data.other_planned_routes[index].stopDetails[i+1]);
+   
+    baseTime =  data.other_planned_routes[index].stopDetails[i+1].ETD
+
+    //Update the stopDetails by adding totalDistance field at each stop level
+    data.other_planned_routes[index].stopDetails[i+1].totalDistance = parseInt(legs[i].distanceMeters)*(0.00062137119);
     
   }
 }
@@ -233,5 +265,32 @@ function getDirectionData(plannedRoute) {
   return { origin, destination, waypoints };
 }
 
+// //@PA - 31/07/2023 - function to handle various errors
+async function handleResponse (response) {
+ try {
+  const { status, data } = response;
+  if (status === 200) {
+      // Successful response, return the data
+      return {
+        status: status,
+        data: data
+      };
+    } else  {
+      //add log the status
+      logger.error('handleResponse', 'directions' , response);
+      // throw new Error('Non-OK status:', status);
+      // Handle case when no route is found
+      return {
+        status: status, 
+        data: []
+      };
+    } 
+} catch (error) {
+    logger.info('handleResponse', 'directions', response)
+    logger.error('handleResponse', 'directions', error.message)
+    throw error;
+}
 
-module.exports = {fetchGoogleDirectionsUsingUrlWithRetry, updatestopDetailsByETAandTotalDistance, CalculateTraveTimeAndTravelDistance};
+}
+
+module.exports = {processRoutesForDirections, updatestopDetailsByETAandTotalDistance_PlannedRoutes, updatestopDetailsByETAandTotalDistance_OtherPlannedRoutes, CalculateTraveTimeAndTravelDistance};
